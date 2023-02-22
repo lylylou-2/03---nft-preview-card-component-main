@@ -4,68 +4,115 @@
 body {
     background-color: hsl(217, 54%, 11%);
     max-width: 1440px;
-    width: 24%;
     margin: auto;
     font-family: "outfit";
+
 }
 
 
 section {
+    width: 24%;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 18px;
     background-position: center;
     justify-content: center;
     background-color: hsl(216, 50%, 16%);
-    
+    margin:auto;
 }    
 
 img {
     width: 88%;
     border-radius: 10px;
-    margin: 18px;
+    margin: 18px; 
+    cursor: grab; 
     
+}
+.clock img{
     
+}
+.ethereum img{
     
 }
 
 .titre{
     color: #fff;
     font-size: 18px;
-    width: 90%;
-    background-color: yellow;
+    width: 85%;
+    
+    
 }
 
 h1 {
-    color: hsl(215, 32%, 27%);
-    font-size: 15px;
+    margin: auto;
+    letter-spacing: 1px;
+    font-size: 25px;
+    cursor: grab;
 }
+
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
 
 .temps {
     display: flex;
+    justify-content: space-between;
+}
+
+.ethereum {
+    width: auto;
+    display: flex;
+}
+
+.clock{
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    width: auto;
 }
 
 h2 {
     color: hsl(178, 100%, 50%);
-    font-size: 15px;
+    font-size: 14px;
+    margin: auto;
 }
 
 h3 {
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
 }
+
 
 footer {
     display: flex;
     align-items: center;
-    width: 90%;
     color: hsl(215, 32%, 27%);
-    margin-;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
 }
 
 .avatar {
     width: 30px;
     border: 1px solid #FFF;
     border-radius: 50px;
+}
+
+.nom{
+    color: #FFF;
+    cursor: grab;
+
+}
+
+.nom:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
 }
 
