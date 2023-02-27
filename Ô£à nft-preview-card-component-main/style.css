@@ -90,6 +90,7 @@ footer {
     display: flex;
     align-items: center;
     color: hsl(215, 32%, 27%);
+    margin: -13px;
 }
 
 hr {
@@ -105,6 +106,7 @@ hr {
 .nom{
     color: #FFF;
     cursor: grab;
+    
 
 }
 
@@ -116,3 +118,28 @@ h1:hover{
     color: hsl(178, 100%, 50%);
 }
 
+@media (max-width: 375px) {
+    body{
+        max-width: 375px;
+        margin: auto;
+        display: flex;
+    }
+    
+    
+    
+    section{
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+
+
+    .creation{
+        width: 90%;
+    }
+
+    .nom{
+        width: -webkit-fill-available; 
+    }
+
+} 
